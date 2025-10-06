@@ -13,15 +13,20 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 
-Al crear la imagen "alpine" se crea automáticamente un contenedor, como en este caso no le asignamos un nombre, se le crea uno por defecto.
+- Al crear la imagen "alpine" se crea automáticamente un contenedor, como en este caso no le asignamos un nombre, se le crea uno por defecto.
  
-Con el comando `docker ps -a` podemos ver el nombre aleatorio asignado: **zen_noyce** 
+- Con el comando `docker ps -a` podemos ver el nombre aleatorio asignado: **zen_noyce** 
 
 <img width="650" height="300" alt="imagen" src="https://github.com/user-attachments/assets/cb058fd1-21f6-42f1-9b7f-56918f788d01" />
 
 ## Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
 
-docker container create -it --name dam_alp1 alpine
+- Para crear un contenedor debemos colocar el código `docker container create -it --name dam_alp1 alpine`. 
+- Y para acceder a él, tendremos que utilizar las abreviaturas `-it`. Estas nos permitirán interactuar con el contenedor desde la terminal como si estuvieramos dentro de él.  
+- Luego de crear el contenedor debemos iniciarlo con el comando `docker start dam_alp1`, para así verificar con `docker ps -a` si está activo "up".
+- Finalmente, accedemos ejecutando `docker exec -it dam_alp1 sh` y podemos usar la terminal dentro de ese contenedor (probé con un ls para verificar que funcionaba). 
+- Cabe resaltar que la abreviatura `exec` sirvió para ejecutar un comando dentro de un contenedor que ya está en ejecución y `sh` es el comando que se ejecuta dentro del contenedor (en este caso shell).  
+
 <img width="973" height="508" alt="imagen" src="https://github.com/user-attachments/assets/719d372a-4905-4dbc-880b-f05d935ca333" />
 
 <img width="1076" height="126" alt="imagen" src="https://github.com/user-attachments/assets/87652be9-c4e6-4008-8d72-0e4a3e3b0ae7" />
