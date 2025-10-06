@@ -13,7 +13,9 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
 
-
+Al crear la imagen "alpine" se crea automáticamente un contenedor, como en este caso no le asignamos un nombre, se le crea uno por defecto.
+ 
+Con el comando `docker ps -a` podemos ver el nombre aleatorio asignado: **zen_noyce** 
 
 <img width="650" height="300" alt="imagen" src="https://github.com/user-attachments/assets/cb058fd1-21f6-42f1-9b7f-56918f788d01" />
 
