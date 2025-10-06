@@ -56,6 +56,8 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 
+Saliendo con `exit` en la terminal, procedemos a ver el **status** de los contenedores con el comando `docker ps -a`. Se concluye que ambos contenedores están abiertos. 
+
 <img width="650" height="300" alt="Archivo_000 (3)" src="https://github.com/user-attachments/assets/21751477-e08d-4dea-bb89-51aab436dbf6" />
 
 ## ¿Cuanta memoria en el disco duro ocupaste?
