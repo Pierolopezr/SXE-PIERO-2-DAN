@@ -56,15 +56,18 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 
-Saliendo con `exit` en la terminal, procedemos a ver el **status** de los contenedores con el comando `docker ps -a`. Se concluye que ambos contenedores están abiertos. 
+- Saliendo con `exit` en la terminal, procedemos a ver el **status** de los contenedores con el comando `docker ps -a`. Se concluye que ambos contenedores están abiertos. 
 
 <img width="650" height="300" alt="Archivo_000 (3)" src="https://github.com/user-attachments/assets/21751477-e08d-4dea-bb89-51aab436dbf6" />
 
-## ¿Cuanta memoria en el disco duro ocupaste?
+## ¿Cuánta memoria en el disco duro ocupaste?
+
+- Para saber la memoria ocupada, debemos utilizar el siguiente comando: `docker system df`. Con dicho comando, se puede ver la cantidad que se utilizó.  
 
 <img width="650" height="300" alt="Archivo_000 (4)" src="https://github.com/user-attachments/assets/cc95db6d-3407-457f-b66c-fdad44c0444e" />
 
-## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+## ¿Cuánta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+
 
 <img width="650" height="300" alt="Archivo_000 (5)" src="https://github.com/user-attachments/assets/39deacfb-698b-4b37-8d09-9f29e8b7e61a" />
 
