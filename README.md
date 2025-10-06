@@ -40,9 +40,16 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
 
+- Hacemos lo mismo que con `dam_alp1`, creamos dicho contenedor y luego procedemos a iniciarlo con `start`. 
+
 <img width="650" height="300" alt="Archivo_000" src="https://github.com/user-attachments/assets/218e028b-f536-4d26-86ba-dcf09476e8a7" />
 
+- Una vez dentro de la terminal del contenedor (ya habiendo usado el comando `docker exec -it dam_alp2` (así como también los dos contenedores estén con la imagen "**alpine**"), procedemos a obetener la ip de este contenedor. 
+
 <img width="650" height="300" alt="Archivo_000 (1)" src="https://github.com/user-attachments/assets/7d324ad1-9975-4f5b-953c-b2ed61202163" />
+
+- Finalmente, accedemos a la terminal del primer contenedor, y procedemos a hacer el ping con la ip del segundo contenedor: `ping -c 4 172.17.0.3`.
+- Vemos que el ping fue **exitoso** (cabe resaltar que los dos contenedores están en funcionamiento `up`).
 
 <img width="650" height="300" alt="Archivo_000 (2)" src="https://github.com/user-attachments/assets/45c882d0-2ce5-45da-b584-09bcdc40dd45" />
 
