@@ -20,8 +20,12 @@ docker container create -it --name dam_alp1 alpine
 
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 
+<img width="1775" height="1002" alt="imagen" src="https://github.com/user-attachments/assets/983df3e5-f883-47b2-bdd1-4939f9e5f6ce" />
+
 
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+
+
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 ## ¿Cuanta memoria en el disco duro ocupaste?
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
