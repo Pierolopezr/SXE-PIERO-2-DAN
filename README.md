@@ -74,7 +74,7 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 <img width="650" height="300" alt="Archivo_000 (5)" src="https://github.com/user-attachments/assets/39deacfb-698b-4b37-8d09-9f29e8b7e61a" />
 
-## EXPLICACIÓN DEL PORQUÉ EN LAS ÚLTIMAS IMÁGENES, NO DISPONGO EXACTAMENTE CON CAPTURAS DE PANTALLAS COMO TAL Y JUNTO A MI NOMBRE DE LA PLATAFORMA EDUCATIVA.
+## EXPLICACIÓN DEL PORQUÉ EN LAS ÚLTIMAS IMÁGENES, NO DISPONGO EXACTAMENTE CON CAPTURAS DE PANTALLAS COMO TAL JUNTO A MI NOMBRE DE LA PLATAFORMA EDUCATIVA.
 
 - Hoy estaba finalizando el trabajo, pero en el lapso de la mañana dejó de haber conexión a internet. Es por ello que solucioné tomando fotos a la pantalla con mi ipad y mostrando en la foto mi usuario en el github. (Pido disculpas por la calidad de las fotos)
 - De igual manera, adjunto una foto de que no había internet.
