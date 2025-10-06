@@ -68,6 +68,8 @@ Utilizaremos la imagen de Alpine. Sigue las instrucciones:
 
 ## ¿Cuánta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
 
+- Mediante un `docker stats`, podemos visualizar (en tiempo real) los recursos que consume cada contenedor.
+- Y para la **RAM**, podemos visualizarlo en el apartado de **MEM USAGE/LIMIT**. Donde **MEM USAGE** significa la RAM que utiliza el contenedor actualmente; mientras que **LIMIT**, es el límite máximo asegurado. 
 
 <img width="650" height="300" alt="Archivo_000 (5)" src="https://github.com/user-attachments/assets/39deacfb-698b-4b37-8d09-9f29e8b7e61a" />
 
